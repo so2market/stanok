@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif; /* Шрифт для страницы */
+    margin: 0px;
+    padding: 20px;
+    
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.container {
+    display: flex; /* Flexbox для размещения в ряд */
+    justify-content: space-around; /* Равномерное распределение */
+    flex-wrap: wrap; /* Перенос элементов на новую строку */
+}
+.item {
+    margin: 10px; /* Отступы между элементами */
+    text-align: center; /* Центрируем текст */
+}
+img {
+    max-width: 150px; /* Ограничиваем ширину изображения */
+    height: auto; /* Автоматическая высота */
+}
+.buy {
+    margin-top: 10px; /* Отступ сверху для текста "Купить" */
+    font-weight: bold; /* Жирный шрифт */
+    color: #007BFF; /* Цвет текста */
+    cursor: pointer; /* Курсор при наведении */
+}
+button:hover {
+    background: #45a049;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px ;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}
